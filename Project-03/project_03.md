@@ -226,9 +226,9 @@ p1_interactive
 ```
 ### Interactive Chart
 
-➡️ **[Open the Interactive Plotly Chart](https://github.com/OwenTelis/dataviz_final_project/blob/main/Project-03/Daily%20Mean%20Temperature%20in%20Tampa%2C%20FL%20(1931%E2%80%931936).html)**
+GitHub cannot display interactive Plotly charts directly inside a Markdown document because it blocks JavaScript.
 
-
+➡️ **[Open the Interactive Plotly Chart](https://owentelis.github.io/dataviz_final_project/Project-03/Daily%20Mean%20Temperature%20in%20Tampa,%20FL%20(1931%E2%80%931936).html)**
 
 **Interpretation:** The seasonal cycle is immediately visible in the data even without any smoothing. Summer peaks cluster between 80 and 92°F, while winter lows drop to the mid-30s in the coldest years. One thing the interactive view makes clear is that the coldest stretch in the dataset falls in early 1934 and 1935, where several days dip below 40°F, which is noticeably colder than the equivalent winter periods in 1931 and 1932.
 

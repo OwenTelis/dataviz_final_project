@@ -226,7 +226,7 @@ p1_interactive
 ```
 ### Interactive Chart
 
-➡️ **[Open the Interactive Plotly Chart](https://owentelis.github.io/dataviz_final_project/Daily%20Mean%20Temperature%20in%20Tampa,%20FL%20(1931-1936).html)**
+➡️ **[Open the Interactive Plotly Chart](https://github.com/OwenTelis/dataviz_final_project/blob/main/Project-03/Daily%20Mean%20Temperature%20in%20Tampa%2C%20FL%20(1931%E2%80%931936).html)**
 
 
 

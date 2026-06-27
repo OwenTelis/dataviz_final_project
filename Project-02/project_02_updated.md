@@ -210,7 +210,7 @@ p1 <- ggplot(nba_yearly, aes(x = Year, y = avg_tpa)) +
 p1
 ```
 
-<img src="project_02_updated_files/figure-html/nba-static-plot-1.png" style="display: block; margin: auto;" />
+<img src="https://github.com/OwenTelis/dataviz_final_project/blob/main/figures/nba-static-plot-1.png" style="display: block; margin: auto;" />
 
 **Interpretation:** The shift in shooting philosophy over four decades is hard to overstate once it's laid out as a line chart.
 
@@ -362,7 +362,7 @@ p3 <- ggplot(coefs, aes(x = estimate, y = term)) +
 p3
 ```
 
-<img src="project_02_updated_files/figure-html/fifa-model-1.png" style="display: block; margin: auto;" />
+<img src="https://github.com/OwenTelis/dataviz_final_project/blob/main/figures/fifa-model-1.png" style="display: block; margin: auto;" />
 
 **Interpretation:** The coefficient plot makes it easy to see which attributes are actually pulling weight in the model and which ones aren't.
 
@@ -500,7 +500,7 @@ p4 <- ggplot() +
 p4
 ```
 
-<img src="project_02_updated_files/figure-html/lakes-map-1.png" style="display: block; margin: auto;" />
+<img src="https://github.com/OwenTelis/dataviz_final_project/blob/main/figures/lakes-map-1.png" style="display: block; margin: auto;" />
 
 **Interpretation:** This version answers a question the original chart could only gesture at: not just that lake size varies a lot, but specifically where lakes are concentrated.
 

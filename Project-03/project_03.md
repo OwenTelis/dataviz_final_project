@@ -263,7 +263,7 @@ ggplot(tpa, aes(x = meanTemp, y = month_name, fill = YEAR_f)) +
   )
 ```
 
-<img src="project_03_files/figure-html/plot2-ridges-1.png" alt="Ridge plot showing the distribution of daily mean temperatures for each month, from January to December, across years 1931 to 1936. Colors shift from dark purple (1931) to yellow (1936) using the viridis palette. Summer months (June-August) show tight, high-temperature distributions centered around 80-82 degrees F. Winter months (December-February) show wider, lower distributions with more year-to-year spread." style="display: block; margin: auto;" />
+<img src="https://github.com/OwenTelis/dataviz_final_project/blob/main/figures/plot2-ridges-1.png" alt="Ridge plot showing the distribution of daily mean temperatures for each month, from January to December, across years 1931 to 1936. Colors shift from dark purple (1931) to yellow (1936) using the viridis palette. Summer months (June-August) show tight, high-temperature distributions centered around 80-82 degrees F. Winter months (December-February) show wider, lower distributions with more year-to-year spread." style="display: block; margin: auto;" />
 
 **Interpretation:** A few things stand out in this view. July and August are consistently the hottest months, with tight distributions that barely overlap across years, meaning the summer peak is very stable. December and January show much wider spreads and noticeably more year-to-year variation, which is consistent with the cold-snap pattern visible in the interactive chart above. The 1934 and 1935 winters (darker green and yellow-green) skew cooler than the 1931 and 1932 winters (purple/blue), which matches what the daily data shows.
 
@@ -306,7 +306,7 @@ ggplot(heatmap_data, aes(x = month_name, y = factor(YEAR), fill = avg_temp)) +
   )
 ```
 
-<img src="project_03_files/figure-html/plot3-heatmap-1.png" alt="Heatmap with months on the x-axis (January through December) and years on the y-axis (1931 to 1936). Cell color represents average monthly temperature, ranging from dark blue (cold, ~50 degrees F) in winter months to bright yellow (hot, ~82 degrees F) in summer months, using the viridis magma palette. The 1934 and 1935 winter cells are noticeably darker (cooler) than surrounding years." style="display: block; margin: auto;" />
+<img src="https://github.com/OwenTelis/dataviz_final_project/blob/main/figures/plot3-heatmap-1.png" alt="Heatmap with months on the x-axis (January through December) and years on the y-axis (1931 to 1936). Cell color represents average monthly temperature, ranging from dark blue (cold, ~50 degrees F) in winter months to bright yellow (hot, ~82 degrees F) in summer months, using the viridis magma palette. The 1934 and 1935 winter cells are noticeably darker (cooler) than surrounding years." style="display: block; margin: auto;" />
 
 **Interpretation:** The heatmap makes a few patterns very clear at a glance. The winter column for 1934 and 1935 (January and February) is noticeably darker than the same months in 1931 and 1932, confirming the colder winters in the middle of the dataset. The summer months (June through September) show almost no variation in color across years, which means peak summer temperature is essentially stable year to year even when winters are variable. The transition months (March, April, October, and November) show the widest range of cell colors across years, making them the most variable months in the record.
 
@@ -351,7 +351,7 @@ ggplot(tpa, aes(x = season, y = meanTemp, color = YEAR_f, shape = YEAR_f)) +
   )
 ```
 
-<img src="project_03_files/figure-html/plot4-seasonal-1.png" alt="Boxplot showing daily mean temperature distributions by season (Winter, Spring, Summer, Fall) with individual daily observations overlaid as jittered points. Points are colored by year using viridis colors and shaped by year so that color is not the only visual encoding. Summer has the highest and tightest distribution, centered near 80 degrees F. Winter has the widest spread and lowest median." style="display: block; margin: auto;" />
+<img src="https://github.com/OwenTelis/dataviz_final_project/blob/main/figures/plot4-seasonal-1.png" alt="Boxplot showing daily mean temperature distributions by season (Winter, Spring, Summer, Fall) with individual daily observations overlaid as jittered points. Points are colored by year using viridis colors and shaped by year so that color is not the only visual encoding. Summer has the highest and tightest distribution, centered near 80 degrees F. Winter has the widest spread and lowest median." style="display: block; margin: auto;" />
 
 **Interpretation:** Summer has by far the tightest box, confirming what the ridge plot and heatmap also showed: peak summer temperature barely varies from year to year. The winter box is both lower and much wider, with some days falling below 40°F and others reaching nearly 70°F within the same season. Fall and spring sit between those extremes and show moderate spread. The individual points make it easy to see that extreme cold days are not evenly distributed across years, with the most extreme low-temperature points clustering in the 1934 and 1935 markers.
 
@@ -389,7 +389,7 @@ ggplot(annual_avg_6, aes(x = factor(YEAR), y = avg_temp, fill = factor(YEAR))) +
   )
 ```
 
-<img src="project_03_files/figure-html/redesign-before-1.png" alt="A poorly designed bar chart showing annual average temperature for years 1931 to 1936. Each bar is a different bright rainbow color with no rationale for the color choice. The y-axis starts at 0 degrees F, which makes the differences between bars almost invisible since all values are near 70 degrees F. There are no value labels, no reference lines, and the title gives no useful context." style="display: block; margin: auto;" />
+<img src="https://github.com/OwenTelis/dataviz_final_project/blob/main/figures/redesign-before-1.png" alt="A poorly designed bar chart showing annual average temperature for years 1931 to 1936. Each bar is a different bright rainbow color with no rationale for the color choice. The y-axis starts at 0 degrees F, which makes the differences between bars almost invisible since all values are near 70 degrees F. There are no value labels, no reference lines, and the title gives no useful context." style="display: block; margin: auto;" />
 
 **What is wrong with this chart?**
 
@@ -450,7 +450,7 @@ ggplot(annual_avg_6, aes(x = factor(YEAR), y = avg_temp)) +
   )
 ```
 
-<img src="project_03_files/figure-html/redesign-after-1.png" alt="An improved bar chart showing annual average temperature in Tampa from 1931 to 1936. The y-axis is zoomed to the actual data range of 65 to 75 degrees F so year-to-year differences are clearly visible. Bars are a single consistent blue-steel color. Each bar has a direct label showing the exact average temperature. A dashed horizontal reference line marks the six-year overall average at 69.8 degrees F. The title is specific and informative." style="display: block; margin: auto;" />
+<img src="https://github.com/OwenTelis/dataviz_final_project/blob/main/figures/redesign-after-1.png" alt="An improved bar chart showing annual average temperature in Tampa from 1931 to 1936. The y-axis is zoomed to the actual data range of 65 to 75 degrees F so year-to-year differences are clearly visible. Bars are a single consistent blue-steel color. Each bar has a direct label showing the exact average temperature. A dashed horizontal reference line marks the six-year overall average at 69.8 degrees F. The title is specific and informative." style="display: block; margin: auto;" />
 
 **What the redesign fixes:**
 

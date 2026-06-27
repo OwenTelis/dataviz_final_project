@@ -333,7 +333,7 @@ goes mainstream
   )
 ```
 
-<img src="project_01_updated_files/figure-html/plot2-1.png" alt="Scatter and line chart showing loudness trend for Billboard Summer Hits 1958-2017. Individual songs shown as blue dots with yearly average in red and overall linear trend dashed. Loudness rises from around -11 dB in the 1950s-70s to near -5 dB in the 2010s, with the steepest jump in the 1990s-2000s." style="display: block; margin: auto;" />
+<img src="https://github.com/OwenTelis/dataviz_final_project/blob/main/figures/plot2-1.png" alt="Scatter and line chart showing loudness trend for Billboard Summer Hits 1958-2017. Individual songs shown as blue dots with yearly average in red and overall linear trend dashed. Loudness rises from around -11 dB in the 1950s-70s to near -5 dB in the 2010s, with the steepest jump in the 1990s-2000s." style="display: block; margin: auto;" />
 
 **Interpretation:** The chart confirms that summer hits have gotten noticeably louder over time, though the trend is not as simple as a straight line upward.
 
@@ -412,7 +412,7 @@ ggplot(billboard, aes(x = danceability, y = valence, color = era)) +
   )
 ```
 
-<img src="project_01_updated_files/figure-html/plot3-1.png" alt="Scatterplot of danceability versus valence for Billboard Summer Hits colored by six eras. Era centroids shown as large diamonds. Centroids shift right and down across eras, showing increasing danceability and decreasing valence from the 1958-1969 era through the 2010s." style="display: block; margin: auto;" />
+<img src="https://github.com/OwenTelis/dataviz_final_project/blob/main/figures/plot3-1.png" alt="Scatterplot of danceability versus valence for Billboard Summer Hits colored by six eras. Era centroids shown as large diamonds. Centroids shift right and down across eras, showing increasing danceability and decreasing valence from the 1958-1969 era through the 2010s." style="display: block; margin: auto;" />
 
 **Interpretation:** The scatterplot shows both a consistent pattern across eras and some clear differences in how the typical summer hit has shifted over time.
 

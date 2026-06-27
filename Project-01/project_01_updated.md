@@ -259,7 +259,7 @@ last_plot() +
   )
 ```
 
-<img src="project_01_updated_files/figure-html/plot1-2.png" alt="Faceted line chart showing four Spotify audio feature trends across decades for Billboard Summer Hits 1958-2017. Acousticness drops sharply from 0.64 to 0.12, Energy rises from 0.49 to 0.72, Danceability increases modestly, and Valence declines from 0.77 to 0.59." style="display: block; margin: auto;" />
+<img src="https://github.com/OwenTelis/dataviz_final_project/blob/main/figures/plot1-2.png" alt="Faceted line chart showing four Spotify audio feature trends across decades for Billboard Summer Hits 1958-2017. Acousticness drops sharply from 0.64 to 0.12, Energy rises from 0.49 to 0.72, Danceability increases modestly, and Valence declines from 0.77 to 0.59." style="display: block; margin: auto;" />
 
 **Interpretation:** Each of the four panels tells a different part of the story about how summer music has changed.
 

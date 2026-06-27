@@ -10,7 +10,7 @@ The following is a sample of products created during the _"Data Visualization an
 
 In the `project_01/` folder you can find a revised analysis of Spotify audio features for Billboard Summer Hits spanning 1958 to 2017. The project uses 600 songs across six decades to explore how the sonic character of popular summer music has changed over time. Three visualizations cover the evolution of key audio features by decade, the Loudness War trend in mastering levels, and the relationship between danceability and emotional positivity across eras. This revision adds direct in-figure annotations to both trend charts so the most important values are readable without cross-referencing the written commentary.
 
-**Evoling Sound of Summer Figure:**
+**Evolving Sound of Summer Figure:**
 
 <img src="https://raw.githubusercontent.com/OwenTelis/dataviz_final_project/main/figures/plot1-2.png" width="80%">
 

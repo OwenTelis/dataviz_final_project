@@ -224,11 +224,10 @@ p1_interactive <- ggplotly(p1_base, tooltip = "text") %>%
 
 p1_interactive
 ```
-### Interactive Chart
 
-GitHub cannot display interactive Plotly charts directly inside a Markdown document because it blocks JavaScript.
+### Daily Mean Temperature in Tampa, FL (1931-1936) Interative chart is unable to be rendered on .md file. 
+<img src="https://github.com/OwenTelis/dataviz_final_project/blob/main/figures/Daily%20Mean%20Temp%20Figure.png" alt="Interactive Chart is available on Rmd File. Here is a static image of the chart." style="display: block; margin: auto;" />
 
-➡️ **[Open the Interactive Plotly Chart](https://owentelis.github.io/dataviz_final_project/Project-03/Daily%20Mean%20Temperature%20in%20Tampa,%20FL%20(1931%E2%80%931936).html)**
 
 **Interpretation:** The seasonal cycle is immediately visible in the data even without any smoothing. Summer peaks cluster between 80 and 92°F, while winter lows drop to the mid-30s in the coldest years. One thing the interactive view makes clear is that the coldest stretch in the dataset falls in early 1934 and 1935, where several days dip below 40°F, which is noticeably colder than the equivalent winter periods in 1931 and 1932.
 

@@ -2,8 +2,6 @@
 
 > Owen Telis | Otelis0019@floridapoly.edu
 
-The following is a sample of products created during the _"Data Visualization and Reproducible Research"_ course.
-
 ---
 
 ## Project 01

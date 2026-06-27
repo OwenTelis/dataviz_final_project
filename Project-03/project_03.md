@@ -224,12 +224,9 @@ p1_interactive <- ggplotly(p1_base, tooltip = "text") %>%
 
 p1_interactive
 ```
-<iframe
-  src="Daily Mean Temperature in Tampa, FL (1931-1936).html"
-  width="100%"
-  height="600"
-  frameborder="0">
-</iframe>
+### Interactive Chart
+
+➡️ **[Open the Interactive Plotly Chart](https://owentelis.github.io/dataviz_final_project/Daily%20Mean%20Temperature%20in%20Tampa,%20FL%20(1931-1936).html)**
 
 
 
